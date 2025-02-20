@@ -1,0 +1,150 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style/main.css" type="text/css">
+    <title>hafta6-9odev</title>
+</head>
+<body>
+    <div 
+        class="header-table"
+    >
+        <div 
+            class="header-table-cell"
+        >
+            <div
+                class="header-container"
+            >
+                <div 
+                    class="header-content-container"
+                >
+                    <span>sneakers</span>
+                    <div
+                        class="nav-container"
+                    >
+                        <a 
+                            id="collections"
+                            href="/collections.html"
+                            class="click-event"
+                        >
+                            Collections
+                        </a>
+                        <a 
+                            id="men"
+                            href="/men.html"
+                            class="click-event"
+                        >
+                            Men
+                        </a>
+                        <a 
+                            id="women"
+                            href="/women.html"
+                            class="click-event"
+                        >
+                            Women
+                        </a>
+                        <a 
+                            id="about"
+                            href="/about.html"
+                            class="click-event"
+                        >
+                            About
+                        </a>
+                        <a 
+                            id="contact"
+                            href="/contact.html"
+                            class="click-event"
+                        >
+                            Contact
+                        </a>
+                    </div>
+                </div>
+                <div 
+                    class="header-logo-container"
+                >
+                    <button class="shoplist-button fa-solid fa-cart-shopping"></button>
+                    <img 
+                        src="assets/img/FwqGKW6XoAA_-xu.jpg" 
+                        alt="Profile" 
+                        class="profile-pic"
+                    >
+                </div>
+            </div>
+        </div>
+    </div>
+    <div 
+        class="section-container"
+    >
+        <div 
+            class="section-content-container"
+        >
+            <div 
+                class="product-images"
+            >
+                <div 
+                    class="main-product-image"
+                >
+                    <img 
+                        id="main-image" 
+                        src="assets/img/image1.jpg" 
+                        alt="Main-Image"
+                    >
+                </div>
+                <div 
+                    class="small-images-container"
+                >
+                    <img class="small-images" src="assets/img/image1.jpg" alt="image1" onclick="changeImage(this)">
+                    <img class="small-images" src="assets/img/image2.png" alt="image2" onclick="changeImage(this)">
+                    <img class="small-images" src="assets/img/image3.png" alt="image3" onclick="changeImage(this)">
+                    <img class="small-images" src="assets/img/image4.png" alt="image4" onclick="changeImage(this)">
+                </div>
+            </div>
+            <div 
+                class="section-text-content-container"
+            >
+                <span>SNEAKER COMPANY</span>
+                <h1>Fall Limited Edition Sneaker</h1>
+                <p>
+                    These low-profile sneaker are your perfect 
+                    casual wear companion. Featuring a durable 
+                    rubber outer sole, they will whitstad 
+                    everything the weather can offer.
+                </p>
+                <div 
+                    class="price-container"
+                >
+                    <span>$125.00</span>
+                    <span>50%</span>
+                </div>
+                <span id="old-price">$250.00</span>
+                <div 
+                    class="product-cart-container"
+                >
+                    <button 
+                        onclick="decreaseCount()"
+                    >
+                        -
+                    </button>
+                    <span 
+                        id="counter"
+                    >
+                        0
+                    </span>
+                    <button 
+                        onclick="increaseCount()"
+                    >
+                        +
+                    </button>
+                    <button 
+                        onclick="addtoCart()"
+                    >
+                        Add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+    <script src="https://kit.fontawesome.com/11364c405c.js" crossorigin="anonymous"></script>
+</body>
+</html>
