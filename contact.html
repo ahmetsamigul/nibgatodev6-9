@@ -3,7 +3,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style/main.css" type="text/css">
-    <title>hafta6-9odev</title>
+    <link rel="stylesheet" href="assets/style/contact.css" type="text/css">
+    <title>Contact</title>
 </head>
 <body>
     <div 
@@ -21,7 +22,7 @@
                     <span>sneakers</span>
                     <div
                         class="nav-container"
-                    >
+                    >   
                         <a 
                             id="main-page"
                             href="/index.html"
@@ -80,78 +81,44 @@
         </div>
     </div>
     <div 
-        class="section-container"
-    >
-        <div 
-            class="section-content-container"
+            class="section-container"
         >
+            <span>Contact Us</span>
             <div 
-                class="product-images"
+                class="section-content-container"
             >
+                <img 
+                    src="assets/img/SNEAKER_GUIDE_OPENER.webp"
+                    class="contact-section-image"
+                />
                 <div 
-                    class="main-product-image"
+                    class="contact-section-content-container"
                 >
-                    <img 
-                        id="main-image" 
-                        src="assets/img/image1.jpg" 
-                        alt="Main-Image"
+                    <div 
+                        class="text-input-container"
                     >
-                </div>
-                <div 
-                    class="small-images-container"
-                >
-                    <img class="small-images" src="assets/img/image1.jpg" alt="image1" onclick="changeImage(this)">
-                    <img class="small-images" src="assets/img/image2.png" alt="image2" onclick="changeImage(this)">
-                    <img class="small-images" src="assets/img/image3.png" alt="image3" onclick="changeImage(this)">
-                    <img class="small-images" src="assets/img/image4.png" alt="image4" onclick="changeImage(this)">
-                </div>
-            </div>
-            <div 
-                class="section-text-content-container"
-            >
-                <span>SNEAKER COMPANY</span>
-                <h1>Fall Limited Edition Sneaker</h1>
-                <p>
-                    These low-profile sneaker are your perfect 
-                    casual wear companion. Featuring a durable 
-                    rubber outer sole, they will whitstad 
-                    everything the weather can offer.
-                </p>
-                <div 
-                    class="price-container"
-                >
-                    <span>$125.00</span>
-                    <span>50%</span>
-                </div>
-                <span id="old-price">$250.00</span>
-                <div 
-                    class="product-cart-container"
-                >
+                        <label for="name-surname">Name-Surname</label>
+                        <input id="name-surname" type="text"/>
+                    </div>
+                    <div 
+                        class="text-input-container"
+                    >
+                        <label for="subject">About</label>
+                        <input id="subject" type="text"/>
+                    </div>
+                    <div 
+                        class="multi-text-input-container"
+                    >
+                        <label for="message">Your Message</label>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
                     <button 
-                        onclick="decreaseCount()"
+                        class="send-button"
                     >
-                        -
-                    </button>
-                    <span 
-                        id="counter"
-                    >
-                        0
-                    </span>
-                    <button 
-                        onclick="increaseCount()"
-                    >
-                        +
-                    </button>
-                    <button 
-                        onclick="addtoCart()"
-                    >
-                        Add to cart
+                        Send
                     </button>
                 </div>
             </div>
         </div>
-    </div>
-    <script src="assets/js/script.js"></script>
-    <script src="https://kit.fontawesome.com/11364c405c.js" crossorigin="anonymous"></script>
 </body>
 </html>
