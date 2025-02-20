@@ -11,7 +11,7 @@ function changeImage(smlimage) {
 
     function increaseCount() {
         count++; 
-        document.getElementById("counter").textContent = count; // Update UI
+        document.getElementById("counter").textContent = count;
     }
 
     function decreaseCount() {
@@ -21,6 +21,5 @@ function changeImage(smlimage) {
         }
     }
     function addtoCart() {
-        alert(`${count} items have been added to yourt shopcart`)
-        count=0;
+        alert(`${count} items have been added to yourt shopcart`);
     }
