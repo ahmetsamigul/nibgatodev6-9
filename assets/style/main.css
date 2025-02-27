@@ -93,22 +93,22 @@ a:hover {
 
 .hamburger-menu {
     position: relative;
-    display: block;
-    width: 35px;
     appearance: none;
     background: none;
+    cursor: pointer;
+    display: block;
     outline: none;
     border: none;
-    cursor: pointer;
+    width: 35px;
 }
 
 .hamburger-menu .bar, .hamburger-menu:after , .hamburger-menu:before{
-    width: 100%;
-    content: "";
-    display: block;
-    height: 5px;
     background-color: grey;
     margin: 6px 0px;
+    display: block;
+    width: 100%;
+    content: "";
+    height: 5px;
 }
 
 .hamburger-menu.is-active:before{
@@ -126,16 +126,16 @@ a:hover {
 }
 
 .mobile-nav {
-    position: absolute;
-    display: none;
-    margin-left: -10px;
-    top: 0;
-    width: 100%;
-    min-height: 50vh;
-    z-index: 98;
-    margin-top: 80px;
-    padding-top: 20px;
     background-color: rgb(104, 104, 104, 0.5);
+    position: absolute;
+    margin-left: -10px;
+    padding-top: 20px;
+    margin-top: 80px;
+    min-height: 50vh;
+    display: none;
+    width: 100%;
+    z-index: 98;
+    top: 0;
 }
 
 .mobile-nav.is-active{
